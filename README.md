@@ -74,7 +74,7 @@ This application is built with the end user in mind. Below are the features impl
 
 A video to the working of the website is loaded below:
 
-- [Live Demo Link](https://drive.google.com/file/d/1oBR0ZAG3KIy_gURd2DsV09GPQV8OWG5B/view?usp=drive_link)
+- [Live Demo Link](https://drive.google.com/file/d/1dwQ5cDkGRgEV0jIgDok4nur5gJtMXkAv/view?usp=drive_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,12 +122,11 @@ Since it is not a complicated system, just view the index.html file in your brow
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 👤 **Francis Karuri Mahira**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/lukademinnosa)
+- Twitter: [@twitterhandle](https://twitter.com/dev_luke_254)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/francis-karuri-b30334177/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

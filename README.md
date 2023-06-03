@@ -71,6 +71,19 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- IMAGES -->
+
+### Images
+
+<img src="./images/Screenshot_1.png" alt="desktop version" />
+Desktop version
+<hr />
+<img src="./images/Screenshot_2.png" alt="desktop version" />
+Mobile version
+<hr />
+<img src="./images/Screenshot_3.png" alt="desktop version" />
+Toggled nav
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>

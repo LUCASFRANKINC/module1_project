@@ -1,19 +1,33 @@
 <a name="readme-top"></a>
 
+
 <div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
 
   <h3><b>Portfolio-setup and Mobile first</b></h3>
 
-</div
+</div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -21,14 +35,46 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-setup and Mobile first <a name="about-project"></a>
+# 📖 [Portfolio-setup and Mobile first <a name="about-project"></a>
 
 
 It's a project on building a portfolio and ensuring it is mobile responsive.
-<br />
 
-## 🛠 Built With <a name="built-with" href="#">HTML, CSS, and JQuery</a>
-<br />
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+Below are the tech stacks used to develop the website:
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://jquery.com/">JQuery</a></li>
+  </ul>
+</details>
+
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+This application is built with the end user in mind. Below are the features implemented:
+
+- **Made for mobile view**
+- **Responsive for desktop view**
+- **Easy to navigate**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+A video to the working of the website is loaded below:
+
+- [Live Demo Link](https://drive.google.com/file/d/1oBR0ZAG3KIy_gURd2DsV09GPQV8OWG5B/view?usp=drive_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -36,7 +82,10 @@ It's a project on building a portfolio and ensuring it is mobile responsive.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> Describe how a new developer could make use of your project.
+
 To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
 
@@ -45,7 +94,6 @@ In order to run this project you need to have git installed:
 ```sh
  sudo apt-get install git-all
 ```
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -54,6 +102,20 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone git@github.com:lukademinnosa/module1_project1.git
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Install
+
+Just downloading the clone is enough. All you need is to view the website on your favorite browser.
+
+### Usage
+
+To run the project, open the index.html file and view it in your favorite browser.
+
+### Run tests
+
+Since it is not a complicated system, just view the index.html file in your browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,20 +131,16 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+These are features I would love to implement in the future:
+
+-  **Complete the website for a full display**
+-  **Ensure that it is beautiful in display and also have more features implemented**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- IMAGES -->
-
-### Images
-
-<img src="./images/Screenshot_1.png" alt="desktop version" />
-Desktop version
-<hr />
-<img src="./images/Screenshot_2.png" alt="desktop version" />
-Mobile version
-<hr />
-<img src="./images/Screenshot_3.png" alt="desktop version" />
-Toggled nav
 
 <!-- CONTRIBUTING -->
 
@@ -98,7 +156,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, just star it &hearts;
+
+If you like this project, just star it &hearts; and follow me on github.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,11 +165,11 @@ If you like this project, just star it &hearts;
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Wes Bos for a perfect tutorial on flexbox.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 

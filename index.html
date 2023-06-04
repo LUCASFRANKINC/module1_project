@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <nav class="flex-nav">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/5784b9ea6f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="flex-nav">
         <h1 class="logo"><a href="#">My Logo</a></h1>
         <div class="toggleNav"><i class="fa fa-bars"></i></div>
         <ul>
@@ -19,33 +21,44 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      </header> 
-      <section>
-        <h1>I&rsquo;m Francis.<br />Glad to see you!</h1>
-        <p>
-          I&rsquo;m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don&rsquo;t hesitate to contact
-          me.
-        </p>
-        <a href="#"class="connect">LET’S CONNECT</a>
-        <ul class="social">
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-medium"></i></a></li>
-            <li><a href="#"><i class="fa fa-github"></i></a></li>
-            <li><a href="#"><i class="fa fa-angellist"></i></a></li>
-        </ul>
-      </section>
-    </div>
-    <script src="jquery/jquery-3.7.0.js"></script>
-    <script src="jquery/jquery-migrate-3.4.1.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".toggleNav").click(function () {
-            $(".flex-nav ul").toggleClass("open");
-            });
-        });
-    </script>
-  </body>
+    </header>
+    <section>
+      <h1>I&rsquo;m Francis.<br />Glad to see you!</h1>
+      <p>
+        I&rsquo;m a software developer! I can help you build a product ,
+        feature or website Look through some of my work and experience! If you
+        like what you see and have a project you need coded, don&rsquo;t
+        hesitate to contact me.
+      </p>
+      <a href="#" class="connect">LET’S CONNECT</a>
+      <ul class="social">
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-medium"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-angellist"></i></a>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <script src="jquery/jquery-3.7.0.js"></script>
+  <script src="jquery/jquery-migrate-3.4.1.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".toggleNav").click(function () {
+        $(".flex-nav ul").toggleClass("open");
+      });
+    });
+  </script>
+</body>
+
 </html>

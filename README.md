@@ -3,7 +3,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="images/francis_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 
@@ -74,7 +74,7 @@ This application is built with the end user in mind. Below are the features impl
 
 A video to the working of the website is loaded below:
 
-- [Live Demo Link](https://drive.google.com/file/d/1dwQ5cDkGRgEV0jIgDok4nur5gJtMXkAv/view?usp=drive_link)
+- [Live Demo Link](https://drive.google.com/file/d/1DoA8aY7Xz032Xp8uOKEfkHvtTk0n5mel/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,6 +138,7 @@ These are features I would love to implement in the future:
 
 -  **Complete the website for a full display**
 -  **Ensure that it is beautiful in display and also have more features implemented**
+- **Ensure that it is responsive for both desktop and mobile**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

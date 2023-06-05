@@ -74,7 +74,7 @@ This application is built with the end user in mind. Below are the features impl
 
 A video to the working of the website is loaded below:
 
-- [Live Demo Link](https://drive.google.com/file/d/1DoA8aY7Xz032Xp8uOKEfkHvtTk0n5mel/view?usp=sharing)
+- [Live Demo Link](https://drive.google.com/file/d/1M7w158Yel44sGCPEYjtImRorxx8WnuaO/view?usp=drive_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,10 +82,7 @@ A video to the working of the website is loaded below:
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
-
 
 ### Prerequisites
 

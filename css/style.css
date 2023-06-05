@@ -129,6 +129,10 @@ section p {
     color: #6070ff;
   }
 
+  .wrapper {
+    width: 100%;
+  }
+
   section {
     background-image: url("../images/background_mobile.svg");
     background-repeat: no-repeat;
@@ -151,20 +155,26 @@ section p {
 
   section p {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 150%;
     position: relative;
+    font-style: normal;
     top: 70px;
     left: -20px;
-    font-style: normal;
     color: #344563;
     width: 80vw;
   }
 
   ul.social {
     position: relative;
-    top: 20px;
+    top: 10px;
     width: 90vw;
+    left: -5px;
+  }
+
+  ul.social li {
+    padding: 0 4px;
   }
 
   .flex-nav {
@@ -194,8 +204,8 @@ section p {
   }
 
   section .connect {
-    margin-top: 90px;
-    font-weight: 700;
+    margin-top: 100px;
+    font-weight: 500;
     position: relative;
     left: 10px;
   }

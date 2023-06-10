@@ -1,0 +1,150 @@
+.about {
+  position: relative;
+  top: 200px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 114px 24px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-flow: column wrap;
+}
+
+.about h2 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 0;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 0 20px 0 0;
+  margin-top: 5px;
+}
+
+.about .connect {
+  font-size: 15px;
+  font-weight: 600;
+  color: #7f8cff;
+  margin-bottom: 10px;
+}
+
+.about .social {
+  gap: 7px;
+  padding: 5px;
+}
+
+.about .action {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.languages,
+.frameworks,
+.skills {
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  align-items: start;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.languages img {
+  flex-basis: 10%;
+}
+
+.frameworks img,
+.skills img {
+  align-self: center;
+}
+
+.frameworks p,
+.skills p {
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.languages p,
+.frameworks p,
+.skills p {
+  flex-basis: 40%;
+  align-self: center;
+  margin: 0;
+}
+
+.skill-list ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-flow: column wrap;
+  row-gap: 8px;
+  margin-bottom: 36px;
+}
+
+.skill-list ul li a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  align-items: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+}
+
+.skill-list ul li a p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #253858;
+}
+
+.skill-list ul li {
+  background-color: #f7f7f9;
+  width: -moz-calc(100% - 40px);
+  width: calc(100% - 40px);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.skill-list ul li:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.skill-list ul li:active {
+  background-color: #2230d2;
+  color: white;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.button:active {
+  background-color: #2230d2;
+  color: white;
+}

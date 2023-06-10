@@ -1,23 +1,38 @@
 html {
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
+  background-color: #f7f7f9;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
 .wrapper {
+  display: -webkit-box;
+  display: -moz-box;
   display: flex;
-  flex-direction: column;
   margin: 0 auto;
+  background-color: #f7f7f9;
+  min-height: 0;
+  min-width: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-flow: column wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  justify-content: center;
 }
 
 .connect {
@@ -28,34 +43,62 @@ html {
 nav {
   width: 100%;
   min-height: 6vh;
+  display: -webkit-box;
+  display: -moz-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
   flex-direction: row;
+  -webkit-box-align: center;
+  -moz-box-align: center;
   align-items: center;
   padding: 0 20px;
 }
 
 .flex-nav {
+  display: -webkit-box;
+  display: -moz-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
   flex-direction: row;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
   align-items: center;
   width: 100%;
 }
 
-section {
+section.sect1 {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  min-height: 60vh;
+  display: -webkit-box;
+  display: -moz-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
   justify-content: center;
+  background-color: #fff;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
   display: flex;
 }
 
@@ -96,11 +139,15 @@ ul.social li {
   color: #505f79;
 }
 
+header {
+  background-color: #fff;
+}
+
 ul.social li a i {
   font-size: 24px;
 }
 
-section h1 {
+section.sect1 h1 {
   font-size: 48px;
   font-weight: 900;
   padding-top: 20px;
@@ -109,7 +156,7 @@ section h1 {
   line-height: 60px;
 }
 
-section p {
+section.sect1 p {
   font-size: 20px;
   font-weight: 400;
   width: 60vw;
@@ -133,29 +180,37 @@ section p {
     width: 100%;
   }
 
-  section {
+  section.sect1 {
     background-image: url("../images/background_mobile.svg");
     background-repeat: no-repeat;
     background-size: 100vw;
-    min-height: 100vh;
+    min-height: 718px;
+    display: -webkit-box;
+    display: -moz-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
     flex-direction: column;
+    -webkit-box-pack: normal;
+    -moz-box-pack: normal;
     justify-content: normal;
   }
 
-  section h1 {
+  section.sect1 h1 {
     font-size: 40px;
     font-weight: 900;
     line-height: 52px;
     position: relative;
     top: 70px;
     width: 90vw;
-    color: #172b4d;
+    color: #172f4d;
   }
 
-  section p {
+  section.sect1 p {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     line-height: 150%;
     position: relative;
@@ -191,11 +246,21 @@ section p {
   }
 
   .flex-nav ul.open {
+    display: -webkit-box;
+    display: -moz-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
     flex-direction: column;
     background: rgb(139 118 118 / 20%);
     border-radius: 5px;
+    -webkit-box-align: center;
+    -moz-box-align: center;
     align-items: center;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
     flex: 1;
   }
 
@@ -203,7 +268,7 @@ section p {
     padding: 10px 0;
   }
 
-  section .connect {
+  section.sect1 .connect {
     margin-top: 100px;
     font-weight: 500;
     position: relative;

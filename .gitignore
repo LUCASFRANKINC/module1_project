@@ -1,6 +1,6 @@
 node_modules/*
 jquery/*
-gulpfile.js
-.stylelintrc.json
-.npmrc
+./gulpfile.js
+./.stylelintrc.json
+./.npmrc
 

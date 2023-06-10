@@ -6,7 +6,7 @@ html {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 *,
@@ -22,7 +22,7 @@ html {
   display: -moz-box;
   display: flex;
   margin: 0 auto;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   min-height: 0;
   min-width: 0;
   -webkit-box-orient: vertical;
@@ -36,7 +36,7 @@ html {
 }
 
 .connect {
-  color: #7f8CFF;
+  color: #7f8cff;
   font-weight: 500;
 }
 
@@ -90,7 +90,7 @@ section.sect1 {
   -webkit-box-pack: center;
   -moz-box-pack: center;
   justify-content: center;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 ul {
@@ -109,7 +109,7 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 18px;
   font-weight: 700;
 }
@@ -136,7 +136,7 @@ ul.social {
 ul.social li {
   display: inline-block;
   padding: 0 20px;
-  color: #505F79;
+  color: #505f79;
 }
 
 header {
@@ -173,7 +173,7 @@ section.sect1 p {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     clear: right;
-    color: #6070FF;
+    color: #6070ff;
   }
 
   .wrapper {
@@ -205,7 +205,7 @@ section.sect1 p {
     position: relative;
     top: 70px;
     width: 90vw;
-    color: #172F4D;
+    color: #172f4d;
   }
 
   section.sect1 p {
@@ -242,7 +242,7 @@ section.sect1 p {
 
   .flex-nav ul {
     display: none;
-    border: 1px solid #FFF;
+    border: 1px solid #fff;
   }
 
   .flex-nav ul.open {

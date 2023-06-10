@@ -1,10 +1,11 @@
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
+  background-color: #F7F7F9;
 }
 
 *,
@@ -16,8 +17,12 @@ html {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
   margin: 0 auto;
+  background-color: #F7F7F9;
+  min-height: 0;
+  min-width: 0;
+  flex-flow: column wrap;
+  justify-content: center;
 }
 
 .connect {
@@ -42,14 +47,14 @@ nav {
   width: 100%;
 }
 
-section {
+section.sect1 {
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #FFF;
 }
 
 ul {
@@ -96,11 +101,15 @@ ul.social li {
   color: #505f79;
 }
 
+header {
+  background-color: #FFF;
+}
+
 ul.social li a i {
   font-size: 24px;
 }
 
-section h1 {
+section.sect1 h1 {
   font-size: 48px;
   font-weight: 900;
   padding-top: 20px;
@@ -109,7 +118,7 @@ section h1 {
   line-height: 60px;
 }
 
-section p {
+section.sect1 p {
   font-size: 20px;
   font-weight: 400;
   width: 60vw;
@@ -133,17 +142,17 @@ section p {
     width: 100%;
   }
 
-  section {
+  section.sect1 {
     background-image: url("../images/background_mobile.svg");
     background-repeat: no-repeat;
     background-size: 100vw;
-    min-height: 100vh;
+    min-height: 718px;
     display: flex;
     flex-direction: column;
     justify-content: normal;
   }
 
-  section h1 {
+  section.sect1 h1 {
     font-size: 40px;
     font-weight: 900;
     line-height: 52px;
@@ -153,9 +162,9 @@ section p {
     color: #172b4d;
   }
 
-  section p {
+  section.sect1 p {
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 500;
     line-height: 150%;
     position: relative;
@@ -203,7 +212,7 @@ section p {
     padding: 10px 0;
   }
 
-  section .connect {
+  section.sect1 .connect {
     margin-top: 100px;
     font-weight: 500;
     position: relative;

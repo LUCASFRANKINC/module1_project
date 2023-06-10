@@ -1,5 +1,5 @@
-var gulp = require('gulp');
-var autoprefixer = require('gulp-autoprefixer');
+import gulp from 'gulp';
+import autoprefixer from 'gulp-autoprefixer';
 
 gulp.task('prefix', function() {
   return gulp.src("css/*.css")

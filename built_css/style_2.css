@@ -118,12 +118,18 @@
   font-style: normal;
 }
 
+.tags ul { float:inline-start;}
+.tags ul li{ margin: 5px;}
+
+
+/*
 .tags ul {
   display: -webkit-box;
   display: -moz-box;
   display: flex;
   gap: 12px;
 }
+*/
 
 .action button {
   border: 1px solid #6070ff;

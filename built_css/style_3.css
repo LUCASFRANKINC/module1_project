@@ -102,6 +102,9 @@
   margin-bottom: 36px;
 }
 
+/*
+  Apply styles on each list link
+*/
 .skill-list ul li a {
   display: -webkit-box;
   display: -moz-box;

@@ -1,12 +1,11 @@
 .contact-form {
-    top: 178px !important;
-    background: url('../images/Contact\ me.png') no-repeat;
-    min-height: 300px;
+ top: 178px !important;
+    background: url(../images/contactbg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.contact-form img{
-    position: relative;
-    left: 10%;
-    width: 265px;
-    height: 60%;
-}
+.contact-form h2{ text-align: center;}

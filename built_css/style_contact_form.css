@@ -16,7 +16,7 @@ body {
 
 .contact-form h2 {
   color: #fff;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 30px;
@@ -89,4 +89,14 @@ textarea {
   border-radius: 10px;
   margin-bottom: 0;
   border: transparent;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.button:active {
+  background-color: #2230d2;
+  color: white;
 }

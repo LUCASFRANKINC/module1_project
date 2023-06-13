@@ -64,6 +64,9 @@ textarea {
   color: #b3bac5;
 }
 
+/*
+Style the contact form button
+*/
 .contact-form button {
   align-self: flex-start;
   background: #fff;

@@ -1,0 +1,12 @@
+.contact-form {
+    top: 178px !important;
+    background: url('../images/Contact\ me.png') no-repeat;
+    min-height: 300px;
+}
+
+.contact-form img{
+    position: relative;
+    left: 10%;
+    width: 265px;
+    height: 60%;
+}

@@ -7,6 +7,7 @@
   flex-direction: column;
   min-height: 779px;
   align-items: center;
+  padding-bottom: 0;
 }
 
 body {
@@ -75,4 +76,17 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070FF;
+  border:transparent;
+
+}
+.delimiter{
+  color: black;
+  position: relative;
+  top: 25px;
+width: 134px;
+height: 5px;
+background: #0D151E;
+border-radius: 10px;
+margin-bottom: 0;
+border: transparent;
 }

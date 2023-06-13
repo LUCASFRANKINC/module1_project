@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="built_css/style.css" />
     <link rel="stylesheet" href="built_css/style_2.css" />
     <link rel="stylesheet" href="built_css/style_3.css" />
+    <link rel="stylesheet" href="built_css/style_contact_form.css" />
     <script
       src="https://kit.fontawesome.com/5784b9ea6f.js"
       crossorigin="anonymous"
@@ -217,6 +218,9 @@
         </div>
       </section>
 
+      <!--
+        About section
+      -->
       <section class="about">
         <h2>About Myself</h2>
         <p>
@@ -286,6 +290,24 @@
             <img src="images/Separator Bottom.png" alt="separator" />
           </div>
         </div>
+      </section>
+
+      <!--
+        Contact section
+      -->
+      <section class="contact-form">
+        <h2>Contact me</h2>
+        
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+          I’d love to help with it!</p>
+        <form action="https://formspree.io/f/mrgvnbrj" method="POST" class="form-flex">
+          <input required type="text" class="padding-inputs" maxlength="30" name="name" id="name" placeholder="Full Name" />
+          <input required type="email" class="padding-inputs" name="email" id="email" placeholder="Email Address" />
+          <textarea rows="5" placeholder="Write your message here..." name="textarea" class="padding-inputs" id="textarea" maxlength="500" required></textarea>
+          <button type="submit">Get in touch</button>
+        </form>
+        <hr class="delimiter">
+
       </section>
     </div>
     <script src="jquery/jquery-3.7.0.js"></script>

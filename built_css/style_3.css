@@ -1,7 +1,5 @@
 .about,
 .contact-form {
-  position: relative;
-  top: 200px;
   width: 100%;
   background-color: rgb(255, 255, 255);
   margin: 0;
@@ -14,6 +12,10 @@
   -moz-box-orient: vertical;
   -moz-box-direction: normal;
   flex-flow: column wrap;
+}
+
+.about {
+  border-top-right-radius: 60px;
 }
 
 .about h2 {

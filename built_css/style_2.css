@@ -8,8 +8,6 @@
 }
 
 .works {
-  position: relative;
-  top: 114px;
   margin: 0 auto;
   display: grid;
   grid-gap: 88px;

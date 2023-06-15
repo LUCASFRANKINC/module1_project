@@ -7,7 +7,7 @@
   <br/>
 
 
-  <h3><b>Portfolio-setup and Mobile first</b></h3>
+  <h3><b>Responsive Web Design Mobile First Portfolio Project</b></h3>
 
 </div>
 
@@ -38,7 +38,7 @@
 # 📖 [Portfolio-setup and Mobile first <a name="about-project"></a>
 
 
-It's a project on building a portfolio and ensuring it is mobile responsive.
+It's a project on building a portfolio and ensuring it is built with the client in mind. It is built under the mobile-first definition, then crafted for RWD Designs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,9 +72,9 @@ This application is built with the end user in mind. Below are the features impl
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-A video to the working of the website is loaded below:
+A video to the working of the website is can be viewed here:
 
-- [Live Demo Link](https://drive.google.com/file/d/1M7w158Yel44sGCPEYjtImRorxx8WnuaO/view?usp=drive_link)
+- [Live Demo Link](https://drive.google.com/file/d/1wWTWwQ8pI2vk3A2JOIjR4K6Xl_tyam3k/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +97,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:lukademinnosa/module1_project1.git
+  git clone git@github.com:LUCASFRANKINC/module1_project1.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,9 +133,9 @@ Since it is not a complicated system, just view the index.html file in your brow
 
 These are features I would love to implement in the future:
 
--  **Complete the website for a full display**
--  **Ensure that it is beautiful in display and also have more features implemented**
-- **Ensure that it is responsive for both desktop and mobile**
+-  **Implement more ideas and features such as bootstrap**
+-  **Ensure that it is beautiful in display and also have more features implemented such as animations and transitions**
+- **Better form handling by implementing server-side features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

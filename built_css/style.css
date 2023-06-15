@@ -104,9 +104,9 @@ nav {
   -webkit-box-align: center;
   -moz-box-align: center;
   align-items: center;
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  flex: 1;
+  -webkit-box-flex: 1 1 100%;
+  -moz-box-flex: 1 1 100%;
+  flex: 1 1 100%;
 }
 
 ul li {
@@ -235,6 +235,10 @@ section.sect1 p {
     z-index: 9999;
   }
 
+  .wrapper > *:not(:first-child) {
+    margin-bottom: 142px;
+  }
+
   .flex-nav ul {
     list-style-type: none;
     margin: 0;
@@ -286,7 +290,7 @@ section.sect1 p {
     align-items: center;
     padding: 48px 8px 77px 35px;
     position: relative;
-    top: 60px;
+    top: 70px;
   }
 
   .toggleNav {
@@ -318,5 +322,9 @@ section.sect1 p {
     width: 60vw;
     position: relative;
     left: -10px;
+  }
+
+  nav {
+    width: 80vw;
   }
 }

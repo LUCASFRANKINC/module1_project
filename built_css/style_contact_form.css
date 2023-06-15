@@ -104,3 +104,25 @@ button:hover {
   background-color: #2230d2;
   color: white;
 }
+
+@media screen and (min-width: 768px) {
+  .contact-form >* {
+    width: 45%;
+  }
+
+  .contact-form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .contact-form button {
+    align-self: center;
+  }
+
+  .delimiter {
+    display: none;
+    top: 0;
+  }
+}

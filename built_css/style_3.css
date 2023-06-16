@@ -1,7 +1,5 @@
 .about,
 .contact-form {
-  position: relative;
-  top: 200px;
   width: 100%;
   background-color: rgb(255, 255, 255);
   margin: 0;
@@ -14,6 +12,12 @@
   -moz-box-orient: vertical;
   -moz-box-direction: normal;
   flex-flow: column wrap;
+}
+
+.about {
+  border-top-right-radius: 60px;
+  gap: 20px;
+  padding-left: -18px;
 }
 
 .about h2 {
@@ -79,6 +83,8 @@
   color: #000;
   font-size: 20px;
   line-height: 24px;
+  margin-top: 15px !important;
+  margin-bottom: 10px !important;
 }
 
 .languages p,
@@ -87,6 +93,12 @@
   flex-basis: 40%;
   align-self: center;
   margin: 0;
+}
+
+.languages p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
 }
 
 .skill-list ul {
@@ -148,4 +160,84 @@ button:hover {
 .button:active {
   background-color: #2230d2;
   color: white;
+}
+
+.separator-line {
+  border-bottom: 1px solid #e8e2e2;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .separator-line {
+    width: 83%;
+  }
+
+  .holder-1 {
+    flex-basis: 32%;
+    min-width: 0;
+  }
+
+  .skill-list ul {
+    flex-flow: row nowrap;
+    gap: 10px;
+  }
+
+  .skill-list {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+    gap: 14px;
+  }
+
+  .skill-list ul li {
+    width: 120px;
+  }
+
+  .skill-list ul li a {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  ul.social {
+    width: 60%;
+    margin: 0;
+  }
+
+  .skills {
+    margin-top: 12px;
+  }
+
+  .skill-list > :not(.separator-line) {
+    padding-left: 10px;
+  }
+
+  .languages img {
+    flex-basis: 0;
+    position: relative;
+    left: 15px;
+  }
+
+  .languages p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .holder-1 h2 {
+    margin-top: 0;
+  }
+
+  .contact-form {
+    background: url("../images/Group 56.svg") !important;
+    background-size: 100vw auto !important;
+    background-repeat: no-repeat !important;
+  }
 }

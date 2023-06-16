@@ -151,6 +151,8 @@ ul {
 
 .logo {
   flex-basis: 80%;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .flex-nav {
@@ -329,9 +331,9 @@ section.sect1 p {
   }
 }
 
-.img-logo { transition: all 2s 1s ease-out;}
+.img-logo { transition: all 2s 1s ease-out; }
 
-.img-logo:hover { 
+.img-logo:hover {
   transform: scale(1.1);
 }
 
@@ -346,18 +348,13 @@ nav ul li a:focus {
   right: 15px;
 }
 
-.logo {
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
 @keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%;
   }
 
-  50%{ 
+  50% {
     background-color: blue;
     color: #fff;
   }
@@ -376,7 +373,6 @@ nav ul li a:focus {
   box-shadow: 2px 1px 4px 2px burlywood;
 }
 
-
 button {
   transition: all 0.5s ease-out;
 }
@@ -386,4 +382,3 @@ button:focus {
   background-color: #fff;
   color: #333;
 }
-

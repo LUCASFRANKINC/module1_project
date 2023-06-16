@@ -368,3 +368,22 @@ nav ul li a:focus {
   }
 }
 
+.work {
+  transition: all 2s 0.1s ease;
+}
+
+.work:hover {
+  box-shadow: 2px 1px 4px 2px burlywood;
+}
+
+
+button {
+  transition: all 0.5s ease-out;
+}
+
+button:hover,
+button:focus {
+  background-color: #fff;
+  color: #333;
+}
+

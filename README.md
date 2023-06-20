@@ -72,9 +72,9 @@ This application is built with the end user in mind. Below are the features impl
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-A video to the working of the website is can be viewed here:
+A link to the working of the website can be viewed here:
 
-- [Live Demo Link](https://drive.google.com/file/d/1wWTWwQ8pI2vk3A2JOIjR4K6Xl_tyam3k/view?usp=sharing)
+- [Live Demo Link](https://lucasfrankinc.github.io/module1_project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="built_css/style.css" />
     <link rel="stylesheet" href="built_css/style_2.css" />
     <link rel="stylesheet" href="built_css/style_3.css" />
@@ -362,9 +362,12 @@
         
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
           I’d love to help with it!</p>
+        <label for="name">Full name</label>
         <form action="https://formspree.io/f/mrgvnbrj" method="POST" class="form-flex">
           <input required type="text" class="padding-inputs" maxlength="30" name="name" id="name" placeholder="Full Name" />
+          <label for="email">Email address</label>
           <input required type="email" class="padding-inputs" name="email" id="email" placeholder="Email Address" />
+          <label for="textarea">Message</label>
           <textarea rows="5" placeholder="Write your message here..." name="textarea" class="padding-inputs" id="textarea" maxlength="500" required></textarea>
           <button type="submit">Get in touch</button>
         </form>

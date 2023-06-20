@@ -126,3 +126,7 @@ button:hover {
     top: 0;
   }
 }
+
+label {
+  display: none;
+}
